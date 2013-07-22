@@ -1,0 +1,20 @@
+// Compare String 6/25/13
+public class EqualStrings {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String first = "Uda";
+		String second = "city";
+		String firstAndSecond = first + second;
+		String third = "Udacity";
+		if (firstAndSecond.equals(third)) {
+			System.out.println("They are the same");
+		} else {
+			System.out.println("They are not the same");
+		}
+	}
+
+}
